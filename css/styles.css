@@ -113,14 +113,19 @@ color: var(--accent-txt-color);
     margin-left: auto;
     display: flex;
     align-items: center;
+    
 }
 
-.header-gp {
+.header-gp{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--txt-color);
     margin-right: 50px;
+}
+
+.header-gp:last-child{
+    margin-right: 0;
 }
 
 .header-contact{
@@ -361,9 +366,9 @@ padding: 200px 0;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: var(--whte-txt-color);
-    display: flex;
+    display: block;
     align-items: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .address{
