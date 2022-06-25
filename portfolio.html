@@ -23,9 +23,8 @@
     <header class="header">
         <div class="container header-container">
             <nav class="header-nav">
+                <a class="header-logo link" href="./index.html"> <span class="organization">Web</span>Studio</a>
                 <ul class="header-list list">
-                    <li><a class="header-logo link" href="./index.html"> <span class="organization">Web</span>Studio</a>
-                    </li>
                     <li class="header-list-item"><a class="header-link link current-link" href="./index.html">Студия</a>
                     </li>
                     <li class="header-list-item"><a class="header-link link" href="./portfolio.html">Портфолио</a></li>
@@ -33,8 +32,9 @@
                 </ul>
             </nav>
             <ul class="header-group list">
-                <li><a class="header-gp link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="header-gp link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="header-gp"><a class="header-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header-gp"><a class="header-contact link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -42,63 +42,79 @@
     <main>
         <!-- фільтр -->
         <section class="portfolio section">
-        <div class="container portfolio-container">
+        <div class="container">
         <h1 hidden class="visually-hidden">Портфоліо</h1>
     <ul class="about-portfolio list">
-        <li class="about-portfolio"><button class="filter-button active" type="button">Все</button></li>
-        <li class="about-portfolio"><button class="filter-button" type="button">Веб-сайты</button></li>
-        <li class="about-portfolio"><button class="filter-button" type="button">Приложения</button></li>
-        <li class="about-portfolio"><button class="filter-button" type="button">Дизайн</button></li>
-        <li class="about-portfolio"><button class="filter-button" type="button">Маркетинг</button></li>
+        <li class="about-portfolio-item"><button class="filter-button active" type="button">Все</button></li>
+        <li class="about-portfolio-item"><button class="filter-button" type="button">Веб-сайты</button></li>
+        <li class="about-portfolio-item"><button class="filter-button" type="button">Приложения</button></li>
+        <li class="about-portfolio-item"><button class="filter-button" type="button">Дизайн</button></li>
+        <li class="about-portfolio-item"><button class="filter-button" type="button">Маркетинг</button></li>
     </ul>
-    </div>
     <!-- Проекти -->
-    <div class="container projects-container">
-    <ul class="about-projects card-set list">
-        <li class="about-project card-set-item">
+    <ul class="about-project card-set list">
+        <li class="about-project-item card-set-item">
             <img src="./images/projects/project-1.jpg" alt="Веб-сайт" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Технокряк</h3>
             <p class="under-title">Веб-сайт</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
+        <li class="about-project-item card-set-item">
             <img src="./images/projects/project-2.jpg" alt="Дизайн" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Постер New Orlean vs Golden Star</h3>
             <p class="under-title">Дизайн</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
-            <img src="./images/projects/project-3.jpg" alt="Приложение" width="370" height="294"/> 
+        <li class="about-project-item card-set-item">
+            <img src="./images/projects/project-3.jpg" alt="Приложение" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Ресторан Seafood</h3>
             <p class="under-title">Приложение</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
+        <li class="about-project-item card-set-item">
             <img src="./images/projects/project-4.jpg" alt="Маркетинг" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Проект Prime</h3>
             <p class="under-title">Маркетинг</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
-            <img src="./images/projects/project-5.jpg" alt="Приложение" width="370" height="294"/> 
+        <li class="about-project-item card-set-item">
+            <img src="./images/projects/project-5.jpg" alt="Приложение" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Проект Boxes</h3>
             <p class="under-title">Приложение</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
+        <li class="about-project-item card-set-item">
             <img src="./images/projects/project-6.jpg" alt="Веб-сайт" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Inspiration has no Borders</h3>
             <p class="under-title">Веб-сайт</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
+        <li class="about-project-item card-set-item">
             <img src="./images/projects/project-7.jpg" alt="Дизайн" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Издание Limited Edition</h3>
             <p class="under-title">Дизайн</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
+        <li class="about-project-item card-set-item">
             <img src="./images/projects/project-8.jpg" alt="Маркетинг" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Проект LAB</h3>
             <p class="under-title">Маркетинг</p>
+            </div>
         </li>
-        <li class="about-project card-set-item">
+        <li class="about-project-item card-set-item">
             <img src="./images/projects/project-9.jpg" alt="Приложение" width="370" height="294"/>
+            <div class="card-project">
             <h3 class="title-img">Growing Business</h3>
             <p class="under-title">Приложение</p>
+            </div>
         </li>
     </ul>
     </div>
@@ -107,10 +123,9 @@
     <!-- Секція футер -->
     <footer class="footer">
         <div class="container footer-container">
+            <a class="footer-logo link" href="./index.html"> <span class="organization">Web</span>Studio</a>
             <address class="address">
                 <ul class="footer-group list">
-                    <li><a class="footer-logo link" href="./index.html"> <span class="organization">Web</span>Studio</a>
-                    </li>
                     <li class="footer-address"><a class="footer-link-address link"
                             href="https://goo.gl/maps/piqngm7oDQpEDh6u6" target="_blank"
                             rel="noopener nofollow noreferrer">г. Киев, пр-т Леси
